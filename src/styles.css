@@ -62,6 +62,8 @@ li {
 .block {
   padding-left: 25px;
 }
-.description {
+.description,
+.humidity,
+.windy {
   padding-left: 10px;
 }
