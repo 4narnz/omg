@@ -2,6 +2,13 @@ body {
   font-family: arial, sans-serif;
   background-color: #f9f7fe;
 }
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 h1 {
   color: #878787;
