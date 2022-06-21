@@ -8,44 +8,47 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"/>
+      crossorigin="anonymous"
+    />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="src/styles.css"/>
+    <link rel="stylesheet" href="src/styles.css" />
     <title>Weather App</title>
   </head>
 
   <body>
     <div class="container">
-		<div class="weather-app-wrapper">
-      <div class="weather-app">
-        <form class="search-form" id="search-form">
-          <div class="row">
-            <div class="col-8">
-              <input
-                type="search"
-                placeholder="Type a city.."
-                autofocus="on"
-                autocomplete="off"
-                id="city-input"
-                class="form-control bg-transparent shadow-sm"/>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <form class="search-form" id="search-form">
+            <div class="row">
+              <div class="col-8">
+                <input
+                  type="search"
+                  placeholder="Type a city.."
+                  autofocus="on"
+                  autocomplete="off"
+                  id="city-input"
+                  class="form-control bg-transparent shadow-sm"
+                />
+              </div>
+              <div class="col-1">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn bg-transparent shadow-sm w-150"
+                />
+              </div>
+              <div class="col-3">
+                <button
+                  class="btn bg-transparent btn-outline-info w-200"
+                  id="current-location-button"
+                >
+                  Current Location
+                </button>
+              </div>
             </div>
-            <div class="col-1">
-              <input
-                type="submit"
-                value="Search"
-                class="btn bg-transparent shadow-sm w-150"
-              />
-            </div>
-            <div class="col-3">
-              <button
-                class="btn bg-transparent btn-outline-info w-200"
-                id="current-location-button">
-                Current Location
-              </button>
-            </div>
-          </div>
-        </form>
-		<div class="overview">
+          </form>
+          <div class="overview">
             <h1 id="city"></h1>
             <ul>
               <li>Last updated: <span id="date"></span></li>
@@ -82,93 +85,5 @@
       </div>
     </div>
     <script src="src/app.js"></script>
-  </body>
-</html>
-
-
-
-
-
-
-<div class="block"> <h6 id="date"></h6>
-			<div class="row">
-				<div class="col-2">
-					<ul>
-						<li>
-							<h1 id="city"></h1></li>
-						<li></li>
-						<li></li>
-						<li>	
-							<span class="temperature" id="temperature"></span>
-							<span class="units">°C</span>
-						</li>
-					</ul>
-				</div>
-				
-				<div class="col-2">
-					<ul>
-						<li></li>
-						<li><span class="description" id="description"></span></li>
-						<li> <span class="humid">Humidity: </span> <span id="humidity"></span>%</li>
-						<li><span class="windy">Wind: </span><span id="wind"></span> km/h</li>
-           			</ul>
-				</div>
-				<div class="col-1">
-				</div>
-				</div>
-			</div>
-		<section>
-			<div class="container">
-			<div class="five-day">
-				<div class="card-header bg-white font-weight-bold">
-					<h6 class="extended" "id="extended"> EXTENDED FORECAST </h6>
-				</div>
-				</div>
-
-
-				
-				<div class="card-group">
-					<div class="card">
-						<div class="card-header bg-white border-light"style="text-align: center"> <h6>FRIDAY</h6> 
-						</div>
-						<img class="card-img-top" src="images/partlysunny.png" alt="Card image cap">
-						<div class="card-body">
-							<h6 class="card-text font-weight-light" style="text-align: center">59℉ / 45℉</h6>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header bg-white border-light "style="text-align: center"> <h6> SATURDAY</h6>
-						</div>
-						<img class="card-img-top" src="images/raincloud.png" alt="Card image cap">
-						<div class="card-body">
-							 <h6 class="card-text font-weight-light" style="text-align: center">53℉ / 43℉</h6>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header bg-white border-light"style="text-align: center"> <h6>SUNDAY</h6>
-						</div>
-							<img class="card-img-top" src="images/partlysunny.png" alt="Card image cap">
-						<div class="card-body">
-							<h6 class="card-text font-weight-light" style="text-align: center">63℉ / 44℉</h6>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header   bg-white border-light"style="text-align: center"><h6>MONDAY</h6> 
-						</div>
-							<img class="card-img-top" src="images/raincloud.png" alt="Card image cap">
-						<div class="card-body">
-							<h6 class="card-text font-weight-light" style="text-align: center">50℉ / 43℉</h6>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header   bg-white border-light"style="text-align: center"> <h6>TUESDAY</h6></div>
-							<img class="card-img-top" src="images/partlysunny.png" alt="Card image cap">
-						<div class="card-body">
-							<h6 class="card-text font-weight-light" style="text-align: center">58℉ / 42℉</h6>
-					</div>
-					</div>
-		</div>
-			</div>
-    <script src="src/index.js"></script>
   </body>
 </html>
