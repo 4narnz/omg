@@ -39,11 +39,12 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
-li#description {
+#description {
   font-weight: 200;
 }
-li#timestamp {
-  margin-font-weight: 200;
+#timestamp {
+  font-weight: 200;
+  font-size: 12px;
 }
 button:hover {
   cursor: pointer;
