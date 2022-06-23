@@ -114,4 +114,4 @@ function submitSearch(event) {
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", submitSearch);
 
-search("New York");
+search("Seattle");
