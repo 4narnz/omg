@@ -105,13 +105,13 @@ function search(city) {
   axios.get(apiUrl).then(displayTemperature);
 }
 
-function handleSubmit(event) {
+function submitSearch(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#city-input");
   search(cityInputElement.value);
 }
 
 let form = document.querySelector("#search-form");
-form.addEventListener("submit", handleSubmit);
+form.addEventListener("submit", submitSearch);
 
 search("New York");
