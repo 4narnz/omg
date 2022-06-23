@@ -40,7 +40,7 @@ li:first-letter {
   text-transform: capitalize;
 }
 li#description {
-  font-weight: 250;
+  font-weight: 200;
 }
 
 button:hover {
