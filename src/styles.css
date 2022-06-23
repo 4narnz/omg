@@ -44,6 +44,7 @@ li#description {
 }
 li#timestamp {
   font-size: 14px;
+  font-family: monospace;
 }
 button:hover {
   cursor: pointer;
