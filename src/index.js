@@ -111,6 +111,11 @@ function submitSearch(event) {
   search(cityInputElement.value);
 }
 
+function displayFahrenheitTemperature(event) {
+  event.preventDefault();
+  alert("link clicked");
+}
+
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", submitSearch);
 
