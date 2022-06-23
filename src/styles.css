@@ -38,6 +38,11 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+button:hover {
+  cursor: pointer;
+  color: powderblue;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
