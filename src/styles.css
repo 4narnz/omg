@@ -43,10 +43,11 @@ li#description {
   font-weight: 200;
 }
 li#timestamp {
+  color: #707680
   font-size: 14px;
   font-family: monospace;
   font-weight: 80;
-  font-variant-caps: all-small-caps;
+  font-variant-caps: unicase;
 }
 button:hover {
   cursor: pointer;
