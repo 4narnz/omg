@@ -39,6 +39,9 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
+li#description {
+  font-weight: 150;
+}
 
 button:hover {
   cursor: pointer;
