@@ -40,7 +40,7 @@ li:first-letter {
 
 button:hover {
   cursor: pointer;
-  color: powderblue;
+  color: red;
 }
 
 .weather-app-wrapper {
