@@ -44,10 +44,11 @@ li#description {
 }
 li#timestamp {
   color: #707680
-  font-size: 14px;
+  font-size: 10px;
   font-family: monospace;
-  font-weight: 80;
+  font-weight: 40;
 }
+
 button:hover {
   cursor: pointer;
 }
