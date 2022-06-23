@@ -44,7 +44,7 @@ li:first-letter {
 }
 #timestamp {
   font-weight: 200;
-  font-size: 12px;
+  font-size: 14px;
 }
 button:hover {
   cursor: pointer;
